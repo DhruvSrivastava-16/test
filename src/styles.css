@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  border: 0;
+  color: white;
+}
+
+button:hover {
+  box-shadow: 2px blue;
+}
+
+#buy {
+  background-color: green;
+}
+
+#sell {
+  background-color: red;
+}
+
+#root2 {
+  background-color: rgb(7, 15, 21);
+  font-family: "Courier New", Courier, monospace;
+}
+
+#main {
+  margin-top: 2em;
+}
+
+.col {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  color: beige;
+}
+
+.hr {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price {
+  margin-left: auto;
+}
+
+.val {
+  margin-right: auto;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#valss {
+  animation: fade-in 1s;
+}
+
+#redcol {
+  color: red;
+}
+
+#greencol {
+  color: green;
+}
